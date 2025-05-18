@@ -1,0 +1,40 @@
+#dropdown-menu {
+  position: absolute;
+}
+
+#dropdown-menu button {
+  display: block;
+}
+
+.invisible {
+  display: none;
+}
+
+.visible {
+  display: block;
+}
+
+img {
+  display: block;
+}
+
+#carousel-container {
+  width: fit-content;
+}
+
+.dots-container {
+  text-align: center;
+  margin: 8px;
+}
+
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: #CCC;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot.active {
+  background-color: #555;
+}
